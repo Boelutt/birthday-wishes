@@ -65,7 +65,7 @@ const lyricsData = [
     { time: 72, text: "いつもありがとう" },
     { time: 77, text: "今日は楽しく過ごそう😊" },
     { time: 83, text: "Happy birthday🎂🎉🎶" },
-    { time: 88, text: "あなたにとって幸せな一年になりますように 🙏🎂💗" }
+    { time: 88, text: "あなたにとって幸せな一年になりますように 🎂🎉" }
 ];
 
 song.addEventListener("timeupdate", () => {
@@ -86,7 +86,7 @@ function startHearts() {
     setInterval(() => {
         const heart = document.createElement("div");
         heart.className = "heart";
-        heart.innerText = ["❤️","🎂","💖","🎉","💕","💗","💘","🌸"][Math.floor(Math.random() * 8)];
+        heart.innerText = ["❤️","🎂","🎈","🎉","✨","💗","🎁","🌸"][Math.floor(Math.random() * 8)];
         heart.style.left = Math.random() * 100 + "vw";
         heart.style.animationDuration = (4 + Math.random() * 3) + "s";
         document.body.appendChild(heart);
