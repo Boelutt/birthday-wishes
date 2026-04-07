@@ -79,14 +79,14 @@ body {
 }
 
 @keyframes bg {
-    0%   { background-image: url("../img/thae1.jpg"); }
-    14%  { background-image: url("../img/thae2.jpg"); }
-    28%  { background-image: url("../img/thae3.jpg"); }
-    42%  { background-image: url("../img/thae4.jpg"); }
-    56%  { background-image: url("../img/thae5.jpg"); }
-    70%  { background-image: url("../img/thae6.jpg"); }
-    84%  { background-image: url("../img/thae7.jpg"); }
-    100% { background-image: url("../img/thae8.jpg"); }
+    0%   { background-image: url("../img/th1.jpg"); }
+    14%  { background-image: url("../img/th2.jpg"); }
+    28%  { background-image: url("../img/th3.jpg"); }
+    42%  { background-image: url("../img/th4.jpg"); }
+    56%  { background-image: url("../img/th5.jpg"); }
+    70%  { background-image: url("../img/th6.jpg"); }
+    84%  { background-image: url("../img/th7.jpg"); }
+    100% { background-image: url("../img/th8.jpg"); }
 }
 
 
